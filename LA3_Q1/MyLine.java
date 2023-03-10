@@ -1,6 +1,6 @@
 package LA3_Q1;
 
-public class MyLine 
+public class MyLine extends MyShape
 {
     
 }

@@ -1,6 +1,6 @@
 package LA3_Q1;
 
-public class MyBoundedShape 
+public class MyBoundedShape extends MyShape
 {
     public void GetArea()
     {

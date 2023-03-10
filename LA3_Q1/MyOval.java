@@ -1,6 +1,6 @@
 package LA3_Q1;
 
-public class MyOval 
+public class MyOval extends MyBoundedShape
 {
     
 }
