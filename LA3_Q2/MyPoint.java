@@ -3,10 +3,10 @@ package LA3_Q2;
 public class MyPoint {
     private int x;
     private int y;
-    public MyPoint(int inX,int inY)
+    public MyPoint(int x,int y)
     {
-        inX = x;
-        inY = x;
+        this.x = x;
+        this.x = y;
     }
     public void setX(int x)
     {
