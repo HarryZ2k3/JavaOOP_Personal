@@ -1,4 +1,4 @@
-package LA4_Q3;
+package LA4_Q4;
 import java.awt.Graphics; 
 import javax.swing.JPanel;
 
@@ -13,11 +13,13 @@ public class DrawPanel extends JPanel
       //Top left corner
       for(int i=0; i <=height;i++)
       {
-         g.drawLine(0,0,width-temp,0+temp);
-         temp+=20;
+         g.drawLine(0+20,0,width,0);
+         g.drawLine(0,0+20,0,height-temp);
+         temp+=10;
       }
       temp=0;
-      //bottom right corner
+      
+      /*//bottom right corner
       for(int i=0; i <=width;i++)
       {
          g.drawLine(width,height,width-temp,0+temp);
@@ -38,6 +40,7 @@ public class DrawPanel extends JPanel
          temp+=20;
       }
       temp=0;
+      */
    } 
 } // end class DrawPanel
 
