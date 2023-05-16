@@ -8,7 +8,6 @@ public class Main {
 
         //c.
         MyPair<String,Double> record = new MyPair<>("Phoenix", 39.7);
-        System.out.println("--c--");
         System.out.println(student);
         System.out.println(record);
 
@@ -21,7 +20,6 @@ public class Main {
         grades[0] = new MyPair<>("Dai",72);
         grades[1] = new MyPair<>("Nam",203);
         grades[2] = new MyPair<>("Hannah",483);
-        System.out.println("--e--");
         for (MyPair elements : grades) {
             System.out.println(elements);
         }
@@ -30,7 +28,6 @@ public class Main {
         MyPair<MyPair<Integer, Integer>, String> second_appointment = new MyPair<>(new MyPair<>(32,22),"Quoc");
 
         //h
-        System.out.println("--h--");
         System.out.println(grades[2].Swap());
     }
 }
